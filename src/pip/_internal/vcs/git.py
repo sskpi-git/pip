@@ -66,6 +66,7 @@ class Git(VersionControl):
         "git+ssh",
         "git+git",
         "git+file",
+        "git+codecommit",
     )
     # Prevent the user's environment variables from interfering with pip:
     # https://github.com/pypa/pip/issues/1130
